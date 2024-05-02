@@ -123,7 +123,6 @@ public class Warsim {
     //============>>
     // Helper Methods
     public static void createWarrior(String who, int choice) {
-        if(who.equals("Player")) {
         switch (choice) {
             case 1:
             if(who.equals("Player")) {
@@ -152,7 +151,6 @@ public class Warsim {
             default:
                 System.out.println("Invalid choice! Please choose a valid option.");
                 break;
-        }
         } // switch
     } // createWarrior
 
@@ -218,6 +216,7 @@ public class Warsim {
             default:
                 System.out.println("Oops!");
                 break;
-        }
-    }
+        } // switch
+    } // createArmor
+    
 } // class

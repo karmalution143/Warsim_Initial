@@ -2,12 +2,12 @@ package warrior;
 
 public class Orc extends Warrior {
 
-    private int minHealth = 75;
-    private int maxHealth = 150;
-    private int minStrength = 75;
-    private int maxStrength = 150;
-    private int maxDexterity = 175;
-    private int minDexterity = 150;
+    private int minHealth = 175;
+    private int maxHealth = 250;
+    private int minStrength = 200;
+    private int maxStrength = 200;
+    private int minDexterity = 50;
+    private int maxDexterity = 50;
     
     public Orc() {
         super(); // must be called first!

@@ -23,5 +23,5 @@ public class Axe extends Weapon {
             damage = 0;
         }
         return damage;
-    }
+    } // strike
 } // class

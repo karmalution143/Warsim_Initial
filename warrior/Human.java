@@ -6,8 +6,8 @@ public class Human extends Warrior {
     private int maxHealth = 150;
     private int minStrength = 100;
     private int maxStrength = 100;
-    private int maxDexterity = 75;
-    private int minDexterity = 50;
+    private int minDexterity = 75;
+    private int maxDexterity = 50;
     
     public Human() {
         super(); // must be called first!
